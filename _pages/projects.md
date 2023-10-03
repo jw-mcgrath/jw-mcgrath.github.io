@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+# title: projects removing title so it doesn't show up for now
+permalink: /projects-unused-page/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 2

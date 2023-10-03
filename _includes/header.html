@@ -94,26 +94,15 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {%- if site.enable_darkmode %}
+              <li class="nav-item">
+                <a class="nav-link" href="/assets/pdf/josh_mcgrath_resume.pdf" target="_blank">cv</a>
 
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
               </li>
-              {%- endif %}
+
+              
             </ul>
           </div>
         </div>
       </nav>
-{% if site.enable_progressbar %}
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-{%- endif %}
+
     </header>
